@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoops for Kids Korogocho</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    .fade-in {
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+  <!-- Header -->
+  <header class="bg-blue-800 text-white p-4 shadow-md fade-in sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+      <h1 class="text-xl sm:text-2xl font-bold animate-pulse">Hoops for Kids Korogocho</h1>
+
+       <button id="menu-btn" class="block sm:hidden focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="7" x2="21" y2="7" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="17" x2="21" y2="17" />
+        </svg>
+      </button>
+
+      <!-- Navigation -->
+      <nav>
+        <ul id="menu" class="hidden sm:flex flex-col sm:flex-row sm:space-x-6 bg-blue-800 sm:bg-transparent absolute sm:static right-4 top-16 sm:top-0 w-48 sm:w-auto rounded-md sm:rounded-none shadow-md sm:shadow-none">
+          <li><a href="#about" class="block px-4 py-2 hover:underline">About</a></li>
+          <li><a href="#programs" class="block px-4 py-2 hover:underline">Programs</a></li>
+          <li><a href="#gallery" class="block px-4 py-2 hover:underline">Gallery</a></li>
+          <li><a href="#team" class="block px-4 py-2 hover:underline">Team</a></li>
+          <li><a href="#contact" class="block px-4 py-2 hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+ <section class="bg-gradient-to-r from-blue-100 to-blue-300 py-16 sm:py-24 px-4 text-center" data-aos="fade-up">
+    <h2 class="text-3xl sm:text-5xl font-extrabold mb-4">Empowering Youth Through Basketball</h2>
+    <p class="text-base sm:text-lg mb-6 max-w-2xl mx-auto">Building confidence, discipline, and opportunity in Korogocho through sports and mentorship.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 sm:py-16 px-4 md:px-8 bg-white" data-aos="fade-right">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl sm:text-3xl font-bold mb-6">About Us</h3>
+      <p class="text-gray-600 leading-relaxed font-medium">Founded in 2020, Hoops for Kids Korogocho began as a simple dream shared by a few passionate youths.....</p>
+      <a href="history.html" class="mt-6 inline-block bg-blue-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-blue-900 hover:scale-105 transition duration-300">
+        Know More
+      </a>
+    </div>
+  </section>
+
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="py-16 bg-gray-50 px-4" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-10">Our Programs</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition transform hover:scale-105" data-aos="zoom-in">
+          <h4 class="text-xl font-semibold mb-2">🏀 Basketball Training</h4>
+          <p>Weekly sessions focusing on physical fitness, technique, and team spirit.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition transform hover:scale-105" data-aos="zoom-in">
+          <h4 class="text-xl font-semibold mb-2">🎓 Mentorship</h4>
+          <p>Guidance and life skills to help youth shape positive futures.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition transform hover:scale-105" data-aos="zoom-in">
+          <h4 class="text-xl font-semibold mb-2">🏆 Tournaments</h4>
+          <p>Competitive and fun events that build unity and showcase talent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+<section id="gallery" class="py-12 sm:py-16 px-4 bg-white" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto text-center space-y-8">
+      <h3 class="text-2xl sm:text-3xl font-bold">Gallery</h3>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="https://www.instagram.com/hoops_for_kids_korogocho/" class="block bg-blue-800  text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-900 hover:scale-105 transition duration-300">
+          Videos
+        </a>
+        <a href="https://hoopsforkidsteam.netlify.app/" class="block bg-blue-800 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-900 hover:scale-105 transition duration-300">
+        Team Cards
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Team -->
+  <section id="team" class="py-16 px-4 bg-gray-100" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Meet Our Team</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="https://via.placeholder.com/150" alt="Coach" class="rounded-full w-24 h-24 mx-auto mb-4">
+          <h4 class="text-xl font-semibold">Coach Brian $ Paul</h4>
+          <p class="text-gray-600">Head Coach & Founder</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="https://via.placeholder.com/150" alt="Volunteer" class="rounded-full w-24 h-24 mx-auto mb-4">
+          <h4 class="text-xl font-semibold">Iyan</h4>
+          <p class="text-gray-600">Mentor & Volunteer</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="https://via.placeholder.com/150" alt="Organizer" class="rounded-full w-24 h-24 mx-auto mb-4">
+          <h4 class="text-xl font-semibold">Greg Ogola</h4>
+          <p class="text-gray-600">Youth Program Coordinator</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Map -->
+  <section class="py-12 sm:py-16 px-4 bg-blue-50" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-2xl sm:text-3xl font-bold mb-6">Find Us in Korogocho</h3>
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <iframe class="w-full h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.042889355273!2d36.8832104!3d-1.2505345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f12e02c8e999f%3A0x5cf52e0c3f110ac5!2sKorogocho!5e0!3m2!1sen!2ske!4v1651324148794!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 sm:py-16 px-4 bg-blue-800 text-white" data-aos="fade-left">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl sm:text-3xl font-bold mb-4">Contact Us</h3>
+      <p>Email: <a href="mailto:info@hoopsforkids.co.ke" class="underline">info@hoopsforkids.co.ke</a></p>
+      <p>Location: Korogocho, Nairobi, Kenya</p>
+    </div>
+  </section>
+  
+  <!-- Back to Top -->
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-6 right-6 bg-blue-700 text-white p-3 rounded-full shadow-lg hover:bg-blue-900 transition">⬆️</button>
+
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p>&copy; 2025 Hoops for Kids Korogocho. </p>
+  </footer>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
