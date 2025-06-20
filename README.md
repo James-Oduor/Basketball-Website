@@ -3,7 +3,6 @@
 A responsive, animated website built with HTML, Tailwind CSS, and AOS animations to showcase the mission, programs, and team of **Hoops for Kids Korogocho**, a community-driven youth empowerment initiative based in Nairobi, Kenya.
 
 ## 🌟 Live Demo
-![Uploading image.png…]()
 
 [Visit the Website](https://your-username.github.io/hoops-for-kids-website/)
 
